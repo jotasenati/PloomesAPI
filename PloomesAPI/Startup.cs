@@ -61,7 +61,7 @@ namespace PloomesAPI
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Produtos}/{action=Index}/{id?}");
             });
         }
     }
