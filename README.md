@@ -9,14 +9,20 @@ Para acesso e teste desta API devemos acessar o postman ou isomnia para PEGARMOS
 METÓDO GET(PEGAR):
 
 http://SEULOCALHOST/api/APIProdutos - Assim terá um retorno em JSON.
-
+{
+        "produtoID": 1,
+        "descricao": "Teste",
+        "preco": 180.0,
+        "qtde": 5.0,
+        "valorEstoque": 900.0
+}
 
 METÓDO POST(ENVIAR):
 
 http://SEULOCALHOST/api/APIProdutos - Deverá ser enviado os dados em JSON como por exemplo:
 
 {
-	"descricao": "Teste",
+	      "descricao": "Teste",
         "preco": 180.0,
         "qtde": 5.0,
         "valorEstoque": 900.0
